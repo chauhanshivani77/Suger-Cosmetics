@@ -1,0 +1,103 @@
+.MainDiv
+{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    margin-right: 0.9rem;
+    
+}
+.MainDiv:hover
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border:  solid rgb(66, 59, 59);
+}
+.colorDiv
+{
+  
+  display: flex;
+ 
+}
+.mainContine
+{
+    gap: 20px;
+    display: flex;
+    margin: auto;
+    width: 95%;
+    box-shadow: rgba(246, 213, 213, 0.35) 0px 5px 15px;
+    
+}
+.discpriction
+{
+    
+    font-size: 20px;
+}
+.img
+{
+    display: block;
+    width:25vw;
+    height: 50vh;
+    margin: auto ;
+    border: 1px solid rgb(243, 232, 232);
+}
+.firstHalf
+{
+   
+  
+    width: 40%;
+    padding: 2rem;
+    
+     
+    
+}
+#ratingHold{
+    display: flex;
+padding-top: 2px; 
+border-radius: 0.6rem;
+border: 1px solid rgb(91, 59, 59);
+width: 7rem;
+    /* height:20px; */
+    /* border:1px solid purple; */
+
+}
+#star{
+    height: 20px;
+    width:auto;
+    object-fit: cover;
+    color:rgb(252,39,121)
+}
+#rating{
+   color: #000000;
+   font-size: 15px;
+   font-family: "Quicksand";
+   padding: 0px;
+   margin-top: 2px;
+}
+.secondHalf{
+    width:50vw;
+    padding:2rem
+}
+.offer{
+    padding: 2rem;
+    background-color: rgb(247,247,247);
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+.offer h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+li{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: rgb(146, 133, 118);
+}
+p{
+    font-size: 1.4rem;
+    text-align: left;
+    color: rgb(38, 28, 17);
+    padding: 1rem 0;
+}
