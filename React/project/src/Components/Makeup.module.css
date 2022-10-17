@@ -5,7 +5,7 @@
     /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
     background-color: #FFFFFF;
     border-radius: 5px;
-    height: 55vh;
+    height: 60vh;
     width: 24vw;
     border-radius: 1rem;
     /* padding : 10px; */
@@ -13,8 +13,8 @@
  
 }
 #img{
-    height: 240px;
-    width: 184px;
+    height: 26vh;
+    width: 18vw;
     display: block;
     margin: auto;
 }
@@ -61,7 +61,7 @@
     
      font-size: 0.8rem;
      font-family: 'Roboto', sans-serif;
-     margin: 0px 0px 2px;
+     margin-top: 0.2rem;
      font-weight: 100;
 
      text-align: center;
@@ -71,8 +71,7 @@
      font-size: 1.2rem;
      font-family: "Quicksand";
      font-weight: bold;
-     
-
+    text-align: center;
  }
  #ratingHold{
      display: flex;
@@ -84,7 +83,7 @@ padding-top: 2px; ;
  #star{
      height: 20px;
      width:auto;
-     object-fit: cover;
+     
      color:rgb(252,39,121)
  }
  #rating{

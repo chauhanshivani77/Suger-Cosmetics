@@ -33,7 +33,7 @@ export const Card1 = (item) => {
     <>
       <div id={styles.unit}>
       <div style={{
-        height:'45vh'
+        height:'50vh'
       }}>
         <img id={styles.img} src={image} />
         <p id={styles.name}>{name}</p>

@@ -1,0 +1,83 @@
+.btn{
+    display:block;
+    background-color: black;
+    color: white;
+    border: 1 px solid black;
+    border-radius: 0.4rem;
+}
+.row{
+    display: flex;
+    margin: auto;
+    gap:2rem;
+    width: 75vw;
+    height: 3.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0 1.5rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+.row >input{
+    width: 23vw;
+    height: 3.3rem;
+     border: 1px solid teal;
+     border-radius: 0.2rem;
+}
+.rowUniq{
+    display: flex;
+    margin: auto;
+    gap:2rem;
+    width: 75vw;
+    height: 3.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0 1.5rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+.rowUniq>input{
+     width: 28vw;
+     height: 3.3rem;
+     border: 1px solid teal;
+     border-radius: 0.2rem;
+     display: block;
+}
+.rowUniq >button{
+    width:12vw;
+    height: 2.5rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    display: block;
+
+}
+.bottom{
+    display: flex;
+    margin: auto;
+    width: 40vw;
+    height: 3rem;
+    justify-content: space-around;
+    
+}
+.top{
+  
+      margin: auto;
+      width: 30vw;
+       padding: 2rem;
+     
+}
+.top >button{
+      width: 16vw;
+      height: 2.7rem;
+      border-radius: 0.3rem;
+      margin: auto;
+      font-size: 1.1rem;
+      padding: 0.6rem 1.3rem;
+      
+}
+.main{
+    margin:auto;
+    width:90vw;
+    height:80vh;
+    border-radius: 0.7rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+

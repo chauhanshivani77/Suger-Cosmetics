@@ -19,6 +19,7 @@ import {
   
 } from '@chakra-ui/react'
 
+
 function Page() {
     const [data,setData]=useState([]);
    const [loading,setLoading]=useState(true);
@@ -30,7 +31,6 @@ function Page() {
       //setLoading(true)
         var res=await fetch(url)
          var res2=await res.json();
-         console.log(res2);
          setData(res2);
          }
          finally{ 
@@ -45,6 +45,7 @@ function Page() {
     function changeUrlType(prod){
        setProd(prod)
        
+     
     }
     useEffect(()=>{
       let url="https://cosmeticsapi1.herokuapp.com/makeup"
