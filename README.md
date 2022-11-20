@@ -1,1 +1,1 @@
-# Suger-Cosmetics
+# Suger-Cosmetic
