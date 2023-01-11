@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Log.module.css";
 import { Input, InputGroup, InputLeftAddon, Stack } from '@chakra-ui/react'
+import {Navigate} from "react-router-dom"
+
 
 const Log = () => {
+  const [username,setUserName] = useState("")
+const handleSubmit = ()=>{
+        if(username.length!==10) 
+         alert("Enter Valid Mobile No")  
+         else
+         return <Navigate to="/otp" />    
+}
   return (
     <>
       <div className={styles.container}>
@@ -21,7 +30,7 @@ const Log = () => {
           </div>
           <div className={styles.input_box}>
             <div className={styles.input_num}>+91</div>
-            <div><input className={styles.input_item} type="text" /></div>
+            <div><input className={styles.input_item} type="number"    onChange={(e)=>setUserName(e.target.value)}/></div>
           </div>
           <div className={styles.text}>
 
@@ -33,7 +42,7 @@ const Log = () => {
 
           </div>
           <div>
-          <button className={styles.otp_btn} > SEND ME OTP</button>
+    <button className={styles.otp_btn} onClick={handleSubmit}> SEND ME OTP</button>
         </div>
             <hr className={styles.dotted_line}/>
       </div>
